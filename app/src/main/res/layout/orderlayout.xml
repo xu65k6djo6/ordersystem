@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/oderview">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvorder"
+            style="@style/Widget.AppCompat.ListView"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="無訂單"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvorder"
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="50dp" />
+
+
+</FrameLayout>
